@@ -16,5 +16,6 @@ dependencies:
   - pytorch
   - torchvision
   - torchaudio
+  - opencv
   - pip:
       - ultralytics
