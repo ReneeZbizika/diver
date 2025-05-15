@@ -1,0 +1,20 @@
+# Note - this is for the macOS with Apple Silicon (osx-arm64)
+
+name: diver_env_cpu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - pillow
+  - pip
+  - plotly
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip:
+      - ultralytics

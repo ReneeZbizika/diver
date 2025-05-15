@@ -1,0 +1,20 @@
+name: diver_env_gpu
+channels:
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - pillow
+  - pip
+  - plotly
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8  # ensure your GPU supports CUDA 11.8
+  - pip:
+      - ultralytics
